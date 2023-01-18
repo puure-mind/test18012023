@@ -1,0 +1,1 @@
+export const removeDoubles = (stringWithDoubles, separator=',') => [...new Set(stringWithDoubles.split(separator.toString()))].join(separator.toString());
